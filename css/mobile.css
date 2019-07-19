@@ -1,0 +1,9 @@
+@media(max-width:700px){
+    .services {
+        display: inherit;
+        width: 100%;
+    }
+    .product {
+           width: initial; 
+    }
+}

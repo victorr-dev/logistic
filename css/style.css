@@ -57,17 +57,41 @@ nav li a:hover {
 }
 
 .services {
-    height: 200px;
-    padding: 15%;
     display: flex;
     justify-content: center;
+    background-color: #B4B4B4;
 }
 
 .product {
     padding: 10px;
-    width: 200px;
+    width: 30%;
 }
 
 .product .content {
     padding: 20px;
+    box-shadow: 0 2px 2px #0E0349;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color:white;
+    color:#0E0349 ;
+    height: 540px;
+}
+
+.content-img{
+    object-fit: cover;
+    height: 350px;
+    
+}
+
+.contact {
+    width: 100%;
+    background-color: #B4B4B4;
+}
+
+.main-button{
+    background-color: #0E0349;
+    color: white;
+    border: 0;
+    width: 100%
 }
