@@ -1,13 +1,14 @@
-html, body{
+html,
+body {
     padding: 0px;
     margin: 0;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Helvetica, sans-serif
 }
 
 nav {
     display: flex;
-    background-color: blue;
+    background-color: #B4B4B4;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
@@ -15,24 +16,58 @@ nav {
 
 nav ul {
     display: flex;
-    
+
 }
 
 nav li {
     padding-right: 10px;
+    padding-left: 10px;
     list-style: none;
 }
 
 nav a {
     text-decoration: none;
-    color:  white;
+    color: white;
+    font-weight: bold;
 }
 
-nav li a:hover{
-     color: red;
+nav li a:hover {
+    color: #0E0349;
 }
 
-.hero{
- padding: 15%;
- text-align: center;  
+.hero {
+    background-image: url('../images/hero_bg_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    width: 500px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+}
+
+.services {
+    height: 200px;
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    padding: 10px;
+    width: 200px;
+}
+
+.product .content {
+    padding: 20px;
 }
