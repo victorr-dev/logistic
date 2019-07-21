@@ -6,4 +6,11 @@
     .product {
            width: initial; 
     }
+
+    .content-contact{
+        width: 100%;
+    }
+    .contact{
+        flex-wrap: wrap;
+    }
 }

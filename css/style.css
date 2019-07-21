@@ -1,3 +1,4 @@
+/*General Styles*/
 html,
 body {
     padding: 0px;
@@ -6,6 +7,7 @@ body {
     font-family: Helvetica, sans-serif
 }
 
+/*Navbar*/
 nav {
     display: flex;
     background-color: #B4B4B4;
@@ -35,6 +37,7 @@ nav li a:hover {
     color: #0E0349;
 }
 
+/*Section Hero*/
 .hero {
     background-image: url('../images/hero_bg_1.jpg');
     background-size: cover;
@@ -56,6 +59,7 @@ nav li a:hover {
     color: white;
 }
 
+/*Section services*/
 .services {
     display: flex;
     justify-content: center;
@@ -73,25 +77,45 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    background-color:white;
-    color:#0E0349 ;
+    background-color: white;
+    color: #0E0349;
     height: 540px;
 }
 
-.content-img{
+.content-img {
     object-fit: cover;
     height: 350px;
-    
 }
 
+/*Section contact*/
 .contact {
-    width: 100%;
     background-color: #B4B4B4;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.main-button{
-    background-color: #0E0349;
-    color: white;
-    border: 0;
-    width: 100%
+.content-contact{
+    width: 50%;
+    margin: 0px 50px;
+    color: #0E0349;
+}
+
+.content-contact input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-title h1{
+    margin: 0px;
 }

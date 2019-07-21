@@ -13,18 +13,20 @@
 </head>
 
 <body>
-    <nav>
-        <div class="brand-image">
-            <img src="images/logo.PNG" width="200px" height="50px" alt="Inmotion">
-        </div>
-        <div class="nav-options">
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#service">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="brand-image">
+                <img src="images/logo.PNG" width="200px" height="50px" alt="Inmotion">
+            </div>
+            <div class="nav-options">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#service">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <section id="home" class="hero site-blocks-cover">
         <div class="hero-title">
             <h1>Soluciones de alta calidad para cadenas de suministros</h1>
@@ -54,13 +56,24 @@
         </div>
     </section>
     <section id="contact" class="contact">
-       <form action="" method="post">
-           <input type="text" name="name" id="name">
-           <input type="email" name="email" id="email">
-           <input type="tel" name="tel" id="tel">
-           <input type="text" name="coments" id="coments">
-           <input class="main-button" type="submit" value="Enviar">
-       </form>
+        <div class="content-contact">
+            <h1>Contactanos: </h1>
+            <img src="./images/img_4.jpg" width="400px" height="400px" alt="">            
+        </div>
+        <div class="content-contact">
+                <form class="contact-form" action="" method="post">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        <label for="tel">Tel&eacute;fono:</label>
+                        <input type="tel" name="tel" id="tel">
+                        <label for="coments">Comentarios:</label>
+                        <textarea id="comments" name="coments" rows="10" cols="35">                  </textarea>
+                        <input class="main-button" type="submit" value="Enviar">
+                    </form>
+        </div>
+
     </section>
     <footer>
         Footer
