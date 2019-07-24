@@ -18,7 +18,8 @@ module.exports = {
             title: 'Inmotion',
             template: path.resolve(__dirname, 'src/index.html')
         })
-    ]
-    
-
+    ],
+    devServer: {
+        open:true
+    }
 }
