@@ -1,0 +1,16 @@
+{
+  "name": "logistic",
+  "version": "1.0.0",
+  "description": "Page Logistic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://victorsr@bitbucket.org/victorsr/logistic.git"
+  },
+  "author": "Victor Ruiz",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/victorsr/logistic#readme"
+}
