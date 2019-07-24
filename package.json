@@ -12,5 +12,11 @@
   },
   "author": "Victor Ruiz",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/victorsr/logistic#readme"
+  "homepage": "https://bitbucket.org/victorsr/logistic#readme",
+  "dependencies": {
+    "webpack": "4.37.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "3.3.6"
+  }
 }
