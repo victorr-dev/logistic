@@ -1,7 +1,7 @@
 import './css/main.css'
 
-function main () {
-    alert('Se ejecuta el inicio');
-}
+import Main from './js/main'
 
-main();
+const main = new Main()
+
+main.render()
