@@ -22,11 +22,6 @@ module.exports = {
                 options: {
                     limit: 90000,
                 }
-            },{
-                loader:'file-loader',
-                options:{
-                    name:'[name].[ext]'
-                }
             }]
         }]
     },
