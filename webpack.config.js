@@ -15,6 +15,19 @@ module.exports = {
         },{
             test: /\.css$/,
             use: ['style-loader','css-loader']
+        },{
+            test: /\.jpeg|jpg|png|gif|woff|eot|ttf|svg|mp4|webm$/,
+            use: [{
+                loader: 'url-loader',
+                options: {
+                    limit: 90000,
+                }
+            },{
+                loader:'file-loader',
+                options:{
+                    name:'[name].[ext]'
+                }
+            }]
         }]
     },
     plugins: [
