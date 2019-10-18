@@ -17,6 +17,5 @@ export default class Main {
         main.insertAdjacentHTML('beforeend', this.hero.render())
         main.insertAdjacentHTML('beforeend', this.secService.render())
         main.insertAdjacentHTML('beforeend', this.contact.render())
-
     }
 }
